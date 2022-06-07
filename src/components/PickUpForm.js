@@ -174,13 +174,15 @@ export class PickUpForm extends Component {
                                         <Col sm="6">
                                         <Label for="Gender">Gender</Label>
                                         <Input type="select" name="gender" id="gender" value={this.state.formData.deliverytype} onChange={this.handleChange}>
+                                        <option>Select Gender</option>
                                             <option value="male">Male</option>
                                             <option value='female'>Female</option>
                                         </Input>
                                         </Col>
                                         <Col sm="6">
-                                        <Label for="Gender" style={{color:'darkorange'}}>Card type</Label>
+                                        <Label for="Gender" style={{color:'darkorange'}}>Choose Card type</Label>
                                         <Input type="select" name="cardtype" id="cardtype" value={this.state.formData.deliverytype} onChange={this.handleChange}>
+                                         <option>- Cardtype -</option>
                                             <option value="Verve">Verve</option>
                                             <option value='MasterCard'>Master Card</option>
                                         </Input>
