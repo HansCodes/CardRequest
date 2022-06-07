@@ -136,7 +136,7 @@ export class PickUpForm extends Component {
                                         <FormGroup>
                                             <Label for="Title">Title</Label>
                                             <Input type="select" name="title" id="title" value={this.state.formData.title} onChange={this.handleChange}>
-                                                <option>--Select title--</option>
+                                                <option>Select title </option>
                                                 <option value = 'Dr.'>Dr.</option>
                                                 <option value = 'Mr.'>Mr.</option>
                                                 <option value = 'Mrs.'>Mrs.</option>
@@ -174,15 +174,15 @@ export class PickUpForm extends Component {
                                         <Col sm="6">
                                         <Label for="Gender">Gender</Label>
                                         <Input type="select" name="gender" id="gender" value={this.state.formData.deliverytype} onChange={this.handleChange}>
-                                        <option>Select Gender</option>
+                                        <option>Select gender</option>
                                             <option value="male">Male</option>
                                             <option value='female'>Female</option>
                                         </Input>
                                         </Col>
                                         <Col sm="6">
-                                        <Label for="Gender" style={{color:'darkorange'}}>Choose Card type</Label>
+                                        <Label for="Gender" style={{color:'darkorange'}}>Choose card type</Label>
                                         <Input type="select" name="cardtype" id="cardtype" value={this.state.formData.deliverytype} onChange={this.handleChange}>
-                                         <option>- Cardtype -</option>
+                                         <option>Card type </option>
                                             <option value="Verve">Verve</option>
                                             <option value='MasterCard'>Master Card</option>
                                         </Input>
@@ -200,7 +200,7 @@ export class PickUpForm extends Component {
                                         <FormGroup>
                                             <Label for="DeliveryType">Delivery type</Label>
                                             <Input type="select" name="deliverytype" id="deliverytype" value={this.state.formData.deliverytype} onChange={this.handleChange}>
-                                                <option>--Select your delivery type--</option>
+                                                <option>Select your delivery type</option>
                                                 <option value="home">Home</option>
                                                 <option value='branch'>Pick up</option>
                                             </Input>
@@ -233,7 +233,7 @@ export class PickUpForm extends Component {
                                         <FormGroup>
                                             <Label for="branch">Bank branches</Label>
                                             <Input type="select" name="branch" id="branch">
-                                                <option>--Select your pick up branch--</option>
+                                                <option>Select your pick up branch</option>
                                                 <option value="59">28/29 OTIGBA STREET IKEJA. LAGOS.</option>
                                                 <option value="60">3 BEACH ROAD BY AHMADU BELLO WAY JOS</option>
                                                 <option value="61">343 NNEBISI ROAD ASABA</option>
