@@ -83,7 +83,8 @@ export class PickUpForm extends Component {
              alert("All fields are important and must agree!");
          };
          
-         if( deliverytype == "PickUp" && branch == null){
+         if( deliverytype == "PickUp" && branch == null)
+         {
              alert("you need to choose a pickup branch");
          }
         alert("Submitted successfully for" + " " + firstName);
